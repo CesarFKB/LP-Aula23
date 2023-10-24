@@ -71,7 +71,8 @@ public class TelaCliente extends JFrame implements ActionListener {
     }
     
     public static void main(String[] args) {
-        new TelaCliente();
+        TelaCliente tc = new TelaCliente();
+        tc.iniciaCliente();
     }
 
     @Override
